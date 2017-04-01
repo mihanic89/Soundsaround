@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Soundsaround</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="car"> Car </string>
+    <string name="truck"> Truck </string>
+    <string name="bus"> Bus </string>
+    <string name="tram"> Tram </string>
+    <string name="trolley"> Trolley </string>
+    <string name="plane"> Plane </string>
+    <string name="helicopter"> Helicopter </string>
+    <string name="train"> Train </string>
+    <string name="eltrain"> Electric train </string>
+    <string name="metro"> Metro </string>
+    <string name="police"> Police </string>
+    <string name="ambulance"> Ambulance </string>
+    <string name="firetruck"> Fire Truck </string>
+    <string name="marine"> Marine </string>
+    <string name="motorcycle"> Motorcycle </string>
+    <string name="bike"> Bike </string>
+    <string name="cart"> Cart </string>
+    <string name="shuttle"> Shuttle </string>
+
+    
+</resources>
