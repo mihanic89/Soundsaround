@@ -61,7 +61,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice("09D7B5315C60A80D280B8CDF618FD3DE")
+                .build();
+
         mAdView.loadAd(adRequest);
 
         // Initialize the Mobile Ads SDK.
@@ -183,11 +186,11 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     return new ImageGridFragmentTransport();
                 case 1:
-                    return new ImageGridFragmentTransport();//IImageGridFragmentCity();
+                    return new ImageGridFragmentNature();//IImageGridFragmentCity();
                 case 2:
-                    return new ImageGridFragmentTransport();//ImageGridFragmentNature();
+                    return new ImageGridFragmentCity();//ImageGridFragmentNature();
                 case 3:
-                    return new ImageGridFragmentTransport();//ImageGridFragmentMusic();
+                    return new ImageGridFragmentMusic();//ImageGridFragmentMusic();
 
             }
             return new ImageGridFragmentTransport();//PlaceholderFragment.newInstance(position + 1);
@@ -204,13 +207,13 @@ public class MainActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "City";
+                    return getString(R.string.transport);
                 case 1:
-                    return "Transport";
+                    return getString(R.string.nature);
                 case 2:
-                    return "Nature";
+                    return getString(R.string.city);
                 case 3:
-                    return "Music";
+                    return getString(R.string.music);
             }
             return null;
         }

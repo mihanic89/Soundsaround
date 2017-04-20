@@ -52,7 +52,9 @@ public class FullImageActivity extends AppCompatActivity {
         });
 
         mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice("09D7B5315C60A80D280B8CDF618FD3DE")
+                .build();
         mAdView.loadAd(adRequest);
     }
 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Звуки вокруг</string>
+    <string name="ambulance">Скорая</string>
+    <string name="autumn">Осень</string>
+    <string name="bike">Велосипед</string>
+    <string name="bus">Автобус</string>
+    <string name="car">Машина</string>
+    <string name="cart">Повозка</string>
+    <string name="city">Город</string>
+    <string name="clock">Часы</string>
+    <string name="desert">Пустыня</string>
+    <string name="drum">Барабан</string>
+    <string name="eltrain">Электричка</string>
+    <string name="firetruck">Пожарная машина</string>
+    <string name="forest">Лес</string>
+    <string name="glacier">Ледник</string>
+    <string name="guitar">Гитара</string>
+    <string name="helicopter">Вертолет</string>
+    <string name="hurricane">Ураган</string>
+    <string name="lightning">Молния</string>
+    <string name="marine">Лодка</string>
+    <string name="market">Рынок</string>
+    <string name="metro">Метро</string>
+    <string name="motorcycle">Мотоцикл</string>
+    <string name="mount">Гора</string>
+    <string name="music">Музыкальные</string>
+    <string name="nature">Природа</string>
+    <string name="ocean">Океан</string>
+    <string name="plane">Самолет</string>
+    <string name="police">Полиция</string>
+    <string name="rain">Дождь</string>
+    <string name="river">Река</string>
+    <string name="shuttle">Шатл</string>
+    <string name="spring">Весна</string>
+    <string name="street">Улица</string>
+    <string name="summer">Лето</string>
+    <string name="supermarket">Супермаркет</string>
+    <string name="train">Поезд</string>
+    <string name="tram">Трамвай</string>
+    <string name="transport">Транспорт</string>
+    <string name="trolley">Троллейбус</string>
+    <string name="truck">Грузовик</string>
+    <string name="volcano">Вулкан</string>
+    <string name="waterfall">Водопад</string>
+    <string name="winter">Зима</string>
+</resources>
