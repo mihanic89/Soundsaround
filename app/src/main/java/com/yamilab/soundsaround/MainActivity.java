@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         mAdView.loadAd(adRequest);
 
         // Initialize the Mobile Ads SDK.
-        MobileAds.initialize(this, "ca-app-pub-2888343178529026/5235658590");
+        //MobileAds.initialize(this, "ca-app-pub-2888343178529026/5235658590");
 
         // Create the InterstitialAd and set the adUnitId.
         mInterstitialAd = new InterstitialAd(this);
